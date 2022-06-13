@@ -14,7 +14,8 @@
       {{ .Title }} &middot; {{ .Site.Params.Title }}
     {{ end }}
   </title>
-
+  
+  {{ template "_internal/opengraph.html" . }}
   <!-- CSS -->
   <link rel="stylesheet" href="/css/poole.css">
   <link rel="stylesheet" href="/css/syntax.css">
